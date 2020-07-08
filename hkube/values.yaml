@@ -160,7 +160,7 @@ algorithm_operator:
     requests:
       cpu: 100m
       memory: 512Mi
-algorithm_queue: # +doc-gen:ignore
+algorithm-queue: # +doc-gen:ignore
   image:
     repository: hkube/algorithm-queue
     tag: v1.2.26
@@ -466,7 +466,7 @@ caching_service: # +doc-gen:ignore
     requests:
       cpu: 100m
       memory: 512Mi
-algorithm_builder: # +doc-gen:ignore
+algorithm-builder: # +doc-gen:ignore
   image:
     repository: hkube/algorithm-builder
     tag: v1.2.43
