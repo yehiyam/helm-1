@@ -98,7 +98,7 @@ minio:
     storageClass: ''
   serviceAccount: # +doc-gen:ignore
     create: false
-systemversion: v1.2.187 # +doc-gen:ignore
+systemversion: v1.2.187
 build_secret:
 # docker registry for algorithm builds. defaults to docker.io
   docker_registry: ''
