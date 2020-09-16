@@ -129,7 +129,7 @@ metrics:
     release: metrics
   grafanaDashboardLabel:
     grafana_dashboard: '1'
-systemversion: 1.3.116-apply-algorithm.257576084
+systemversion: 1.3.116-apply-algorithm.257675234
 build_secret:
 # docker registry for algorithm builds. defaults to docker.io
   docker_registry: ''
@@ -211,7 +211,7 @@ api_server: # +doc-gen:ignore
     pipeline_driver_mem: '2048'
   image:
     repository: hkube/api-server
-    tag: v1.3.32-apply_algorithm-257576084
+    tag: v1.3.32-apply_algorithm-257675234
   ingress:
     enabled: true
     path: /hkube/api-server
