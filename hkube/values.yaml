@@ -7,7 +7,7 @@ global:
   registry_namespace: hkube
   # private registry username for pulling images
   registry_username: ''
-  # private registry password for pulling images 
+  # private registry password for pulling images
   registry_password: ''
   # private registry insecure (http) for pulling base image in builds
   registry_insecure: false
@@ -134,7 +134,7 @@ metrics:
     release: metrics
   grafanaDashboardLabel:
     grafana_dashboard: '1'
-systemversion: v1.3.116
+systemversion: 1.3.116-update-python_wrapper_to_2_0_21.257697331
 build_secret:
 # docker registry for algorithm builds. defaults to docker.io
   docker_registry: ''
@@ -496,7 +496,7 @@ caching_service: # +doc-gen:ignore
 algorithm_builder: # +doc-gen:ignore
   image:
     repository: hkube/algorithm-builder
-    tag: v1.3.50
+    tag: v1.3.50-update_python_wrapper_to_2_0_21-257697331
   resources:
     requests:
       cpu: 100m
