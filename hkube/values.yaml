@@ -136,7 +136,7 @@ metrics:
     release: metrics
   grafanaDashboardLabel:
     grafana_dashboard: '1'
-systemversion: v1.3.130
+systemversion: 1.3.130-algorithm-cache_params.282436377
 build_secret:
 # docker registry for algorithm builds. defaults to docker.io
   docker_registry: ''
@@ -225,7 +225,7 @@ api_server: # +doc-gen:ignore
     pipeline_driver_mem: '2048'
   image:
     repository: hkube/api-server
-    tag: v1.3.35
+    tag: v1.3.35-algorithm_cache_params-282436377
   ingress:
     enabled: true
     path: /hkube/api-server
@@ -459,7 +459,7 @@ task_executor:
     has_node_list: false
   image: # +doc-gen:ignore
     repository: hkube/task-executor
-    tag: v1.3.20
+    tag: v1.3.20-algorithm_cache_params-282436377
   service: # +doc-gen:ignore
     type: ClusterIP
   # Compute resources required for algorithm-operator
@@ -486,7 +486,7 @@ worker: # +doc-gen:ignore
     metric_port: '3000'
   image:
     repository: hkube/worker
-    tag: v1.3.22
+    tag: v1.3.22-algorithm_cache_params-282436377
   metrics:
     port: 3001
   service:
