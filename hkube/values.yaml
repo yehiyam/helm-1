@@ -136,7 +136,7 @@ metrics:
     release: metrics
   grafanaDashboardLabel:
     grafana_dashboard: '1'
-systemversion: v1.3.134
+systemversion: 1.3.134-update-python_wrapper_to_2_0_28.293328531
 build_secret:
 # docker registry for algorithm builds. defaults to docker.io
   docker_registry: ''
@@ -506,7 +506,7 @@ caching_service: # +doc-gen:ignore
 algorithm_builder: # +doc-gen:ignore
   image:
     repository: hkube/algorithm-builder
-    tag: v1.3.64
+    tag: v1.3.64-update_python_wrapper_to_2_0_28-293328531
   resources:
     requests:
       cpu: 100m
